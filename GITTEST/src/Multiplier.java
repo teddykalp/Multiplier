@@ -56,12 +56,12 @@ public class Multiplier {
 		
 		JLabel lblNewLabel_1 = new JLabel("Value 2");
 		
-		JButton btnNewButton = new JButton("Multiply");
+		JButton btnNewButton = new JButton("Divide");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				int value1 = Integer.parseInt(valueOne.getText());
 				int value2 = Integer.parseInt(valueTwo.getText());
-				int multiplier = value1 * value2;
+				int multiplier = value1 / value2;
 				
 				System.out.println(multiplier);
 				
